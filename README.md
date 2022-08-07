@@ -1,4 +1,4 @@
-# challenges-ONE
+# code-ONE
 /**Estos son algunos proyectos realizados en la formación OneEducation by Oracle+AluraLatam
 
 //El codigo esta documentado mediante comentarios
