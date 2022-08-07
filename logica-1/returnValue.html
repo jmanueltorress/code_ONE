@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RetornarValores</title>
+</head>
+<body>
+        <h2>Ejemplo de retorno de valores calculado el IMC</h2>
+    
+</body>
+<script>
+     function saltar3Lineas(){
+         document.write("<br><br><br>");
+
+     }
+     function Imprimir(frase){
+         document.write(frase);
+
+     }
+    function CalcularImc(peso1,altura1,nombre1,peso2,altura2,nombre2){
+        imc1= peso1 / ( altura1* altura1 );
+        imc2= peso2 / ( altura2* altura2 );  
+        Imprimir("El promedio de imc calculado de "+nombre1+" y "+nombre2+" es: "+((imc1+imc2)/2));
+        
+    }
+    CalcularImc(86,1.90,"Cristofer",79,1.70,"Emmanuel");//Retorno de valores a funcion
+    saltar3Lineas();
+
+    function calcImc(peso,altura){
+        imc= peso / ( altura* altura );
+        return imc;
+    }
+    var imcGuillermo=calcImc(84,1.90);
+    var imcAdolfo=calcImc(81,1.80);
+    Imprimir("El promedio del imc calculado de Guillermo y Adolfo es: "+((imcGuillermo+imcAdolfo)/2));
+</script>
+</html>
