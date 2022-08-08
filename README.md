@@ -1,5 +1,5 @@
 # code-ONE
-**Code & Challenges perform in the OneEducation by Oracle+AluraLatam training.
+**Code & Challenges: Training Oracle-Next-Education by Oracle+AluraLatam.
 
 
 1.-Logic 1:
