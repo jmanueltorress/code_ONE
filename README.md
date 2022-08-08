@@ -1,11 +1,11 @@
 # code-ONE
-**Estos son algunos proyectos realizados en la formación OneEducation by Oracle+AluraLatam.  
+**These are some of the projects carried out in the OneEducation by Oracle+AluraLatam training.
 
 
-1.-Logica 1:
- Introducción a la programación. 
-    Ruta de aprendizaje inicial en el lenguaje JavaScript 
+1.-Logic 1:
+ Introduction to programming.
+    Initial learning path in the JavaScript language
 
-2.- Lógica 2: Conceptos primordiales 
+2.- Logic 2: Fundamental concepts
 
-3.- Logica 3: Conceptos avanzados.
+3.- Logic 3: Advanced concepts.
