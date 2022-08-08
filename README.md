@@ -1,5 +1,5 @@
 # code-ONE
-**These are some of the projects carried out in the OneEducation by Oracle+AluraLatam training.
+**Code & Challenges carried out in the OneEducation by Oracle+AluraLatam training.
 
 
 1.-Logic 1:
