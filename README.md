@@ -1,5 +1,5 @@
 # code-ONE
-**Estos son algunos proyectos realizados en la formación OneEducation by Oracle+AluraLatam
+**Estos son algunos proyectos realizados en la formación OneEducation by Oracle+AluraLatam.  
 
 
 **1.-Logica 1: 
