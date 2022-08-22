@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conducir</title>
+</head>
+<body>
+    
+</body>
+<script>
+        function saltarLinea() {
+        document.write("<br>");
+    }
+
+    function imprimir(frase) {
+        document.write(frase);
+        saltarLinea();
+    }
+
+    var edad = parseInt(prompt("¿Cuál es tu edad?"));
+    var tieneLicencia = prompt("¿Tienes licencia? Escribe en tu teclado 0 si la respuesta es No y 1 si la respuesta es Sí");
+
+    if(edad<18){
+imprimir("Usted no puede conducir, debido a que no cuenta con la edad")
+    }else{
+        imprimir("Usted tiene la edad para poder conducir");
+    } if (tieneLicencia==0) {
+        imprimir("Usted necesita licencia para conducir");
+        
+   
+    }if(tieneLicencia==1) {
+        imprimir("Cuentas con licencia para conducir, adelante")
+        
+    }
+
+
+
+</script>
+</html>

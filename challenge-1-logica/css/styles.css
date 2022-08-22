@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@300&display=swap');
+
+
+* {
+
+    background-color: rgb(247, 247, 252);
+}
+
+.imglogo {
+    display: flex;
+    align-content: space-between;
+    justify-content: left;
+    margin: 5%;
+    width: 60px;
+    height: 100px;
+    margin-bottom: 1px;
+    bottom: 0%;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-content: space-between;
+    justify-content: right;
+    margin: 0;
+    padding-right: 50px;
+}
+
+.textoIn {
+    font-style: normal;
+    border-radius: 7px;
+    margin: 20px 30px;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    width: 870px;
+    height: 300px;
+}
+
+.boton-primario {
+    background-color: #0078e7;
+    color: #fff;
+  }
+  
+
+
+
+  .bn-1{
+    display: inline-block;
+    padding: 0.65em 1.6em;
+    border: 3px solid #000000;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    color: #000000;
+    text-align: center;
+    transition: all 0.2s;
+    animation: bn2bouncy  10s infinite linear;
+    position: relative;
+  }
+  
+  
+  .bn-1:hover {
+      padding-left: 100px;
+      text-align: left;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    
+  }
+  
+  @keyframes bn2bouncy {
+    0% {
+      top: 0em;
+    }
+    40% {
+      top: 0em;
+    }
+    43% {
+      top: -0.9em;
+    }
+    46% {
+      top: 0em;
+    }
+    48% {
+      top: -0.4em;
+    }
+    50% {
+      top: 0em;
+    }
+    100% {
+      top: 0em;
+    }
+  }
+  .bn-2{
+    font-family:"Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+    padding: 10px 40px 10px 40px;
+    position: relative;
+    border: 3px solid rgb(79, 166, 216);
+    border-radius: 5px;
+    background-color: rgb(53, 209, 14);
+  }
+  .bn-2:hover{
+      background-color: rgb(79, 166, 216);
+      color: rgb(0, 0, 0);
+      border: 3px solid rgb(79, 166, 216);
+      padding-left: 100px;
+  }
+  #buttons{
+
+  }
+  
+
+.contOutput {
+    height: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: grid;
+    padding-right: 100px;
+    justify-content: right;
+}
+
+main {
+    display: flex;
+    float: left;
+}
+
+footer {
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+
+}
