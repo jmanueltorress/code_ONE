@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JUEGO-ADIVINAR</title>
+</head>
+<body>
+        <h2>JUEGO CPU vs USUARIO</h2>
+        <h3>ADIVINANDO NUMEROS ALEATORIOS ENTRE EL 0 Y 10</h3>
+
+</body>
+<script>
+     function Imprimir(frase) {
+        document.write(frase);
+
+    }
+    function saltar2Lineas() {
+        document.write("<br><br>");
+    }
+
+    var NumeroPensado=Math.round(Math.random()*10);
+    var NumeroLanzado= parseInt(prompt("Que numero estoy pensando?...."+"Indica un numero del 0 al 10"));
+    if (NumeroLanzado==NumeroPensado) {
+        Imprimir("Correcto!, Usted acerto")
+    } else {
+        Imprimir("Error, Usted no adivino el numero");
+        saltar2Lineas();
+        Imprimir("El numero pensado era: "+NumeroPensado);
+    }
+</script>
+</html>

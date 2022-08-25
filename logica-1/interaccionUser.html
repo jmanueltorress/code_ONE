@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input prompt</title>
+</head>
+
+<body>
+    <h2>Usuario ingresa datos para calcular imc de manera interactiva...</h2>
+</body>
+<script>
+    function Imprimir(frase) {
+        document.write(frase);
+
+    }
+    function saltar2Lineas() {
+        document.write("<br><br>");
+    }
+    function calImc(pesoInt, alturaInt) {
+        return (pesoInt / (alturaInt * alturaInt));
+    }
+    pesoIngresado = prompt("Ingresa tu peso en Kg:");
+    alturaIngresado = prompt("Digita tu altura en mts:");
+
+    imcCalculado=calImc(pesoIngresado, alturaIngresado);
+    Imprimir("El imc calculado es: "+imcCalculado);
+
+
+
+</script>
+
+</html>
