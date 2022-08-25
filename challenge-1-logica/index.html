@@ -18,10 +18,19 @@
     </header>
     <h1></h1>
     <main>
-        <textarea name="ingresarTexto" class="textoIn" id="txtIn"
-            placeholder="Ingrese el Texto aqui"></textarea>
-        </p>
+        <textarea name="ingresarTexto" class="input-texto" 
+                    placeholder="Ingrese el Texto aqui"></textarea>
+                    <div class="content">        Solo letras minusculas y sin acentos</div>
     </main>
+    <section >
+        <textarea name="TextoSalida" class="mensaje" id="txtOut"
+        placeholder="Output"></textarea>
+        
+        <div class="content2" style="display:none;">Escribe tu texto!</div>
+        <button class="copiarbtn" onclick="copiar()">Copy Output</button>
+    </section>
+    <!-- 
+
     <section>
         <div class="contOutput">
         <div class="imgSearch">
@@ -30,24 +39,40 @@
         <h2>Ningún mensaje fue encontrado</h2>
         <h3>Ingresa el texto que desees encriptar</h3>
     </div>
-    </section>
+    </section>-->
     <div id="buttons">
         
-  <a class="bn-1" href="#">
+  <a class="bn-1" onclick="btnEncriptar()">
     ENCRIPTAR
   </a>
   
-  <a class="bn-2" href="#">
+  <a class="bn-2" onclick="btnDesencriptar()">
     DESENCRIPTAR
   </a>
+  
+  
     </div>
-    <footer>
-        <div class="imgfooter">
-            <img src="/challenge-1-logica/assets/img/footer.png" alt="challenges-footer">
-            <h5>@ONE challenge: challenge-1-logica: Encriptador</h5>
-        </div>
+    
 
+    <footer>
+       
+        <h5>@ONE challenge: challenge-1-logica: Encriptador</h5>
+<br>
+<h5> By Juan manuel Torres Servín</h5>
     </footer>
+    <script src="/challenge-1-logica/javascript.js"></script>
 </body>
 
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    setTimeout(function() {
+        $(".content").fadeOut(1500);
+    },3000);
+ 
+    setTimeout(function() {
+        $(".content2").fadeIn(1500);
+    },6000);
+});
+</script>
 </html>
